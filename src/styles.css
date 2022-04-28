@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+  width: 100%;
+}
+
+body-column{
+  margin:auto;
+  width: 500px;
+  max-width: 100%;
+}
+
+/* Top Bar */
+app-topbar {
+  height: 68px;
+  background-color: #259fd8;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Button */
+.button, button {
+  display: inline-flex;
+  align-items: center;
+  padding: 25% 25%;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  opacity: 0.8;
+}
+
+.button:hover, button:hover {
+  opacity: 100;
+  font-weight: normal;
+}
+
+.button:disabled, button:disabled {
+  opacity: 0.5;
+  cursor: auto;
+}
+
+/* Center Page */
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+.logo {
+  border-radius: 100%;
+  background-color: aliceblue;
+  width: 90px;
+  height: 90;
+  text-align: center;
+}
+
+.navi-grid {
+  position: absolute;
+  right: 0px;
+  padding: 10px;
+}
+
+.navi {
+  padding: 5px;
+}
+
+.intro {
+  transition: outline-width .1s linear;
+  margin: 0.5em;
+}
+.intro:hover {
+  outline: 3px solid #1976d2;
+}
+/* Add application styles & imports to this file! */
